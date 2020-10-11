@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home Page</title>
+
+	<!-- Bootstrap -->
+	<link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+	
+	<!-- Internal CSS -->
+	<style>
+		.hero-image{
+			height: 100vh;
+			background: linear-gradient(180deg, rgba(208, 129, 129, 0) 0%, rgba(159, 159, 159, 0) 46.21%, #585B56 100%), url("images/pexels-junior-teixeira-2047905.jpg");
+			background-size: auto, cover;
+			background-position: 100%;
+		}		
+	</style>
+</head>
+<body>
+	<!-- The fixed navbar will overlay your other content, unless you add padding to the bottom of the <body>. Tip: By default, the navbar is 50px high.  -->
+	<!-- Navbar -->
+	<div class="hero-image">
+		<nav class="navbar navbar-expand-lg navbar-light"> 
+  		<div class="container">
+			<a class="navbar-brand" href="#">HtIW</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active"> <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> </li>
+					<li class="nav-item"> <a class="nav-link" href="About.html">About</a> </li>
+					<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Topics </a>
+				  		<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						  <a href="docs/Domain.html" class="dropdown-item">Domain names and ICANN</a>
+						  <a href="docs/IPAddresses.html" class="dropdown-item">IP Addresses, Packets and Routing</a>
+						  <a href="docs/DNS.html" class="dropdown-item">DNS</a>
+						  <a href="docs/HTTP.html" class="dropdown-item">HTTP and HTTPS protocols</a>
+						  <a href="docs/W3C.html" class="dropdown-item">W3C and HTML and CSS</a> 
+						</div>
+					</li>
+				</ul>
+    		</div>
+      	</div>
+		</nav>
+		<!-- END: Navbar -->
+		<div>
+			<div class="container-fluid d-flex justify-content-between">
+				<div class="col-xl-12 text-center" style="padding-top: 75px">
+					<h1 class="text-capitalize">How the Internet Words</h1>
+					<h4>A site made by Ido Tanne</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="d-flex flex-row align-items-center" style="margin: 100px 0">
+		<div class="col-xl-3">
+			<img class="float-left img-fluid" src="images/card-img.png" alt="" height="250px" width="325px" style="padding: 15px 15% 15px 0; margin-left: -15px; background: #646E68;">
+		</div>
+		<div class="col-xl-1"></div>
+		<div class="col-xl-7">
+			<h3>Domain names and ICANN</h3>
+			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.</p>
+			<a href="docs/Domain.html"><button type="button" class="btn btn-secondary">Learn More!</button></a>
+		</div>
+	</div>
+	
+	<div class="d-flex flex-row align-items-center justify-content-end" style="margin: 100px 0">
+		<div class="col-xl-7" style="">
+			<h3>IP Addresses, Packets and Routing</h3>
+			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.</p>
+			<a href="docs/IPAddresses.html"><button type="button" class="btn btn-secondary">Learn More!</button></a>
+		</div>
+		<div class="col-xl-1"></div>
+		<div class="col-xl-3" style="">
+			<img class="float-right img-fluid" src="images/card-img.png" alt="" height="250px" style="padding: 15px 0 15px 15%; margin-right: -15px; background: #646E68;">
+		</div>
+	</div>
+	
+	<div class="d-flex flex-row align-items-center" style="margin: 100px 0">
+		<div class="col-xl-3">
+			<img class="float-left img-fluid" src="images/card-img.png" alt="" height="250px" width="325px" style="padding: 15px 15% 15px 0; margin-left: -15px; background: #646E68;">
+		</div>
+		<div class="col-xl-1"></div>
+		<div class="col-xl-7">
+			<h3>DNS</h3>
+			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.</p>
+			<a href="docs/DNS.html"><button type="button" class="btn btn-secondary">Learn More!</button></a>
+		</div>
+	</div>
+	
+	<div class="d-flex flex-row align-items-center justify-content-end" style="margin: 100px 0">
+		<div class="col-xl-7" style="">
+			<h3>HTTP and HTTPS protocols</h3>
+			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.</p>
+			<a href="docs/HTTP.html"><button type="button" class="btn btn-secondary">Learn More!</button></a>
+		</div>
+		<div class="col-xl-1"></div>
+		<div class="col-xl-3" style="">
+			<img class="float-right img-fluid" src="images/card-img.png" alt="" height="250px" style="padding: 15px 0 15px 15%; margin-right: -15px; background: #646E68;">
+		</div>
+	</div>
+	
+	<div class="d-flex flex-row align-items-center" style="margin: 100px 0">
+		<div class="col-xl-3">
+			<img class="float-left img-fluid" src="images/card-img.png" alt="" height="250px" width="325px" style="padding: 15px 15% 15px 0; margin-left: -15px; background: #646E68;">
+		</div>
+		<div class="col-xl-1"></div>
+		<div class="col-xl-7">
+			<h3>W3C and HTML and CSS</h3>
+			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.</p>
+			<a href="docs/W3C.html"><button type="button" class="btn btn-secondary">Learn More!</button></a>
+		</div>
+	</div>
+	
+
+	<!-- Footer -->
+	<nav id="footer" class="row-fluid navbar-light bg-dark text-center align-items-end">
+		<div class="container col" id="socialTags">
+			<a href="https://www.instagram.com/itanne99/"><img src="images/instagram.svg" class="img-fluid" alt="Responsive image" width="25px"></a>
+			<a href="https://www.linkedin.com/in/ido-tanne-51a4b664/"><img src="images/linkedin.svg" class="img-fluid" alt="Responsive image" width="25px"></a>
+			<a href="https://twitter.com/lukeido"><img src="images/twitter.svg" class="img-fluid" alt="Responsive image" width="25px"></a>
+		</div>
+		<h5 class="col">Footer</h5>
+	</nav>
+	<!-- END: Footer -->
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.3.1.min.js"></script> 
+	<!-- Include all compiled plugins (below), or include individual files as needed --> 
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.3.1.js"></script>
+</body>
+</html>

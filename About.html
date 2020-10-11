@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home Page</title>
+
+	<!-- Bootstrap -->
+	<link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+	
+	<!-- Internal CSS -->
+	<style>
+		.hero-image{
+			height: 100vh;
+		}
+	</style>
+</head>
+<body>
+	<!-- The fixed navbar will overlay your other content, unless you add padding to the bottom of the <body>. Tip: By default, the navbar is 50px high.  -->
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-dark"> 
+  		<div class="container">
+			<a class="navbar-brand" href="index.html">HtIW</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"> <a class="nav-link" href="index.html">Home</a> </li>
+					<li class="nav-item active"> <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a> </li>
+					<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Topics </a>
+				  		<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						  <a href="docs/Domain.html" class="dropdown-item">Domain names and ICANN</a>
+						  <a href="docs/IPAddresses.html" class="dropdown-item">IP Addresses, Packets and Routing</a>
+						  <a href="docs/DNS.html" class="dropdown-item">DNS</a>
+						  <a href="docs/HTTP.html" class="dropdown-item">HTTP and HTTPS protocols</a>
+						  <a href="docs/W3C.html" class="dropdown-item">W3C and HTML and CSS</a> 
+						</div>
+					</li>
+				</ul>
+    		</div>
+      	</div>
+	</nav>
+	<!-- END: Navbar -->
+	<div class="hero-image container-fluid">
+		<div class="container">
+			<div class="row text-center justify-content-md-center">
+				<h1>About Page</h1>
+				<p style="margin-top: 50px;">In the early 1970’s the Internet was invited by Bob Kahn & Vint Cerf and was a result of an experiment called the ARPANET(Advanced Research Projects Agency NETwork) which was funded and managed by the Department of Defense. Paul Baran needed to figure out a reliable way for the network to stand, so they wouldn’t need to micromanage it. They developed a distributed form of networks where packets would be sent in little blocks all through this network at very high speeds. So, who controls the internet now? In reality there is no one company that has control over the internet. A user would gain access to the internet through their ISP (Internet Service Provider) and from there the user would be able to communicate and surf the web however they like. The way the internet was improved was through the methods used in science research where researchers share their information and the same thing happens over the internet. The internet is literally almost everywhere, so why not just learn to use it.</p>
+				<p style="margin-top: 50px;">My name is Ido Tanne</p>
+			</div>
+		</div>
+	</div>
+	
+	
+
+	<!-- Footer -->
+	<nav id="footer" class="navbar-light bg-dark text-center">
+		<div class="container" id="socialTags">
+			<a href="https://www.instagram.com/itanne99/"><img src="images/instagram.svg" class="img-fluid" alt="Responsive image" width="25px"></a>
+			<a href="https://www.linkedin.com/in/ido-tanne-51a4b664/"><img src="images/linkedin.svg" class="img-fluid" alt="Responsive image" width="25px"></a>
+			<a href="https://twitter.com/lukeido"><img src="images/twitter.svg" class="img-fluid" alt="Responsive image" width="25px"></a>
+		</div>
+		<h5>Footer</h5>
+	</nav>
+	<!-- END: Footer -->
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.3.1.min.js"></script> 
+	<!-- Include all compiled plugins (below), or include individual files as needed --> 
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.3.1.js"></script>
+</body>
+</html>

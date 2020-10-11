@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home Page</title>
+
+	<!-- Bootstrap -->
+	<link href="../css/bootstrap-4.3.1.css" rel="stylesheet">
+</head>
+<body>
+	<!-- The fixed navbar will overlay your other content, unless you add padding to the bottom of the <body>. Tip: By default, the navbar is 50px high.  -->
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-dark"> 
+  		<div class="container">
+			<a class="navbar-brand" href="../index.html">HtIW</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"> <a class="nav-link" href="../index.html">Home</a> </li>
+					<li class="nav-item"> <a class="nav-link" href="../About.html">About</a> </li>
+					<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Topics </a>
+				  		<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						  <a href="Domain.html" class="dropdown-item">Domain names and ICANN</a>
+						  <a href="IPAddresses.html" class="dropdown-item">IP Addresses, Packets and Routing</a>
+						  <a href="#" class="dropdown-item active">DNS <span class="sr-only">(current)</span></a>
+						  <a href="HTTP.html" class="dropdown-item">HTTP and HTTPS protocols</a>
+						  <a href="W3C.html" class="dropdown-item">W3C and HTML and CSS</a> 
+						</div>
+					</li>
+				</ul>
+    		</div>
+      	</div>
+	</nav>
+	<!-- END: Navbar -->
+	<div class="hero-image container-fluid">
+		<div class="container">
+			<div class="row text-center justify-content-md-center">
+				<h1>DNS Page</h1>
+				<p style="margin-top: 50px;">DNS, Domain Name System is a much simpler way for people to remember websites or servers through the use of words instead of numbers. You can actually look it up at this link (<a href="https://mxtoolbox.com/DnsLookup.aspx">https://mxtoolbox.com/DnsLookup.aspx</a>) if we search google.com we get this IP address <strong>172.217.164.142</strong>, so even huge companies like google uses IPs. DNS domains are set up in a hierarchy system, so different servers handle the .com/.org/.net and distributes the workload among a different set of servers. DNS is an open system, so anyone can use it but because it has an open design it is is susceptible to cyber-attacks. This form of cyber-attack is called DNS Spoofing, it happens when a hacker enters a DNS server and takes over a domain so people will think the hacker’s “fake” website is the real one. </p>
+			</div>
+		</div>
+	</div>
+	
+	
+
+	<!-- Footer -->
+	<nav id="footer" class="navbar-light bg-dark text-center">
+		<div class="container" id="socialTags">
+			<a href="https://www.instagram.com/itanne99/"><img src="../images/instagram.svg" class="img-fluid" alt="Responsive image" width="25px"></a>
+			<a href="https://www.linkedin.com/in/ido-tanne-51a4b664/"><img src="../images/linkedin.svg" class="img-fluid" alt="Responsive image" width="25px"></a>
+			<a href="https://twitter.com/lukeido"><img src="../images/twitter.svg" class="img-fluid" alt="Responsive image" width="25px"></a>
+		</div>
+		<h5>Footer</h5>
+	</nav>
+	<!-- END: Footer -->
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="../js/jquery-3.3.1.min.js"></script> 
+	<!-- Include all compiled plugins (below), or include individual files as needed --> 
+	<script src="../js/popper.min.js"></script> 
+	<script src="../js/bootstrap-4.3.1.js"></script>
+</body>
+</html>

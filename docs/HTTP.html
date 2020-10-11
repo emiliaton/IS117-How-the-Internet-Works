@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home Page</title>
+
+	<!-- Bootstrap -->
+	<link href="../css/bootstrap-4.3.1.css" rel="stylesheet">
+</head>
+<body>
+	<!-- The fixed navbar will overlay your other content, unless you add padding to the bottom of the <body>. Tip: By default, the navbar is 50px high.  -->
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-dark"> 
+  		<div class="container">
+			<a class="navbar-brand" href="../index.html">HtIW</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"> <a class="nav-link" href="../index.html">Home</a> </li>
+					<li class="nav-item"> <a class="nav-link" href="../About.html">About</a> </li>
+					<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Topics </a>
+				  		<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						  <a href="Domain.html" class="dropdown-item">Domain names and ICANN</a>
+						  <a href="IPAddresses.html" class="dropdown-item">IP Addresses, Packets and Routing</a>
+						  <a href="DNS.html" class="dropdown-item">DNS</a>
+						  <a href="#" class="dropdown-item active">HTTP and HTTPS protocols <span class="sr-only">(current)</span></a>
+						  <a href="W3C.html" class="dropdown-item">W3C and HTML and CSS</a> 
+						</div>
+					</li>
+				</ul>
+    		</div>
+      	</div>
+	</nav>
+	<!-- END: Navbar -->
+	<div class="hero-image container-fluid">
+		<div class="container">
+			<div class="row text-center justify-content-md-center">
+				<h1>HTTP and HTTPS protocols</h1>
+			  <p style="margin-top: 50px;">How do all of the computers all across the world communicate with each other? Web Browsers, URL (uniform resource locator) let’s you access websites. What happens when you type a URL? Your computer starts talking to another computer, called a server, and in milliseconds the two computers are communicating with one another over HTTP (Hypertext Transfer Protocol) it’s the language used to communicate between web browsers and servers. A lot of the communication is the users computer running GET commands which is essentially the computer asking for files and the server deciding if the user can get it or not.</p>
+				<p style="margin-top: 50px;">When communicating on normal HTTP we leave an open channel for hackers to steal our data and use it as they please, but some websites have a safety measure to ensure that a computer and server communicate on a secure channel, this is known as Transport Layer Security or HTTPS (Hyper Text Transfer Protocol Secure). Websites that use HTTPS are required to have digital certificates so when a user access the site they are informed that the site is the legit site and not some hacker trying to steal your data. When a user tries to access a site that has a fake certificate or there’s something off with the certificate, you’ll be informed that the certificate is invalid and/or not trusted.</p>
+			</div>
+		</div>
+	</div>
+	
+	
+
+	<!-- Footer -->
+	<nav id="footer" class="navbar-light bg-dark text-center">
+		<div class="container" id="socialTags">
+			<a href="https://www.instagram.com/itanne99/"><img src="../images/instagram.svg" class="img-fluid" alt="Responsive image" width="25px"></a>
+			<a href="https://www.linkedin.com/in/ido-tanne-51a4b664/"><img src="../images/linkedin.svg" class="img-fluid" alt="Responsive image" width="25px"></a>
+			<a href="https://twitter.com/lukeido"><img src="../images/twitter.svg" class="img-fluid" alt="Responsive image" width="25px"></a>
+		</div>
+		<h5>Footer</h5>
+	</nav>
+	<!-- END: Footer -->
+	
+	
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="../js/jquery-3.3.1.min.js"></script> 
+	<!-- Include all compiled plugins (below), or include individual files as needed --> 
+	<script src="../js/popper.min.js"></script> 
+	<script src="../js/bootstrap-4.3.1.js"></script>
+</body>
+</html>

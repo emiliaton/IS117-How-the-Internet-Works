@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home Page</title>
+
+	<!-- Bootstrap -->
+	<link href="../css/bootstrap-4.3.1.css" rel="stylesheet">
+</head>
+<body>
+	<!-- The fixed navbar will overlay your other content, unless you add padding to the bottom of the <body>. Tip: By default, the navbar is 50px high.  -->
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-dark"> 
+  		<div class="container">
+			<a class="navbar-brand" href="../index.html">HtIW</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"> <a class="nav-link" href="../index.html">Home</a> </li>
+					<li class="nav-item"> <a class="nav-link" href="../About.html">About</a> </li>
+					<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Topics </a>
+				  		<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						  <a href="Domain.html" class="dropdown-item">Domain names and ICANN</a>
+						  <a href="#" class="dropdown-item active">IP Addresses, Packets and Routing <span class="sr-only">(current)</span></a>
+						  <a href="DNS.html" class="dropdown-item">DNS</a>
+						  <a href="HTTP.html" class="dropdown-item">HTTP and HTTPS protocols</a>
+						  <a href="W3C.html" class="dropdown-item">W3C and HTML and CSS</a> 
+						</div>
+					</li>
+				</ul>
+    		</div>
+      	</div>
+	</nav>
+	<!-- END: Navbar -->
+	<div class="hero-image container-fluid">
+		<div class="container">
+			<div class="row text-center justify-content-md-center">
+				<h1>IP Addresses, Packets and Routing</h1>
+				<p style="margin-top: 50px;">In the 1970s there was no standard form of communication over the internet, it was only till Vint Cerf and Bob Kahn developed the Internetworking protocol, and we know this today as the Internet. The Internet is just a design philosophy which is expressed in a set of protocols. A protocol is a well-known set of rules and standards used to communicate between machines. </p>
+				
+				<p style="margin-top: 50px;">The design philosophy has helped the internet grow even more by adapting and absorbing new communication technologies. Each device connect to the internet has a unique address, known as IP addresses, this is equivalent to a phone number or home address. So, no two devices will have the same IP at the same time. When we go into a website we are really just asking a computer to send us files for us to read. When we do ask for the files though we need to make sure to say where we are located so it knows where to send the files. Just like a mailing address, IP address are the same. The first two set of numbers are the network the ISP or network the device is located, then the subnetwork (which can be seen as the town), and finally the last set of numbers is the device itself. </p>
+				
+				<p style="margin-top: 50px;">This set of numbers is called IPv4 and there are 4 billion unique addresses, but as the population of the internet increases the number of addresses usable decreases so a new IP system is needed. We are slowly transitioning to IPv6, which works off a hex based system instead of a triple digit system. So, how many address do we get with IPv6? 340 Undecillion unique addresses, that’s 36 zeros AFTER 340.</p>
+				
+				<p style="margin-top: 50px;">How is data delivered to us reliably? We would think that the way it works is just connecting to the server and collecting the data we need, but this is wrong. It is impossible for 1 computer to handle all the information required at the same time. Data actually travels on the internet in a much less direct fashion. The data is sent through packets through a dynamic form of pathing. A majority of the data on the internet can be sent through packets, but there are limits. Routers help direct the packets to their destination. Routers will also find the cheapest way to get the packet to it’s needed location. Cheap isn’t meant by cost, but by time, politics, and relationships. Having options for paths makes the internet fault tolerant, which makes it reliable. TCP makes sure that the packets are sent and received correctly. TCP and routers are scalable, so they can work with 8 devices or 8 billion devices. The more router means the more reliable.</p> 
+			</div>
+		</div>
+	</div>
+	
+	
+
+	<!-- Footer -->
+	<nav id="footer" class="navbar-light bg-dark text-center">
+		<div class="container" id="socialTags">
+			<a href="https://www.instagram.com/itanne99/"><img src="../images/instagram.svg" class="img-fluid" alt="Responsive image" width="25px"></a>
+			<a href="https://www.linkedin.com/in/ido-tanne-51a4b664/"><img src="../images/linkedin.svg" class="img-fluid" alt="Responsive image" width="25px"></a>
+			<a href="https://twitter.com/lukeido"><img src="../images/twitter.svg" class="img-fluid" alt="Responsive image" width="25px"></a>
+		</div>
+		<h5>Footer</h5>
+	</nav>
+	<!-- END: Footer -->
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="../js/jquery-3.3.1.min.js"></script> 
+	<!-- Include all compiled plugins (below), or include individual files as needed --> 
+	<script src="../js/popper.min.js"></script> 
+	<script src="../js/bootstrap-4.3.1.js"></script>
+</body>
+</html>
