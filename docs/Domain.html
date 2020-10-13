@@ -1,70 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Home Page</title>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Home Page</title>
 
-	<!-- Bootstrap -->
-	<link href="../css/bootstrap-4.3.1.css" rel="stylesheet">
-</head>
-<body>
-	<!-- The fixed navbar will overlay your other content, unless you add padding to the bottom of the <body>. Tip: By default, the navbar is 50px high.  -->
-	<!-- Navbar -->
-	<nav class="navbar navbar-expand-lg navbar-light bg-dark"> 
-  		<div class="container">
-			<a class="navbar-brand" href="../index.html">HtIW</a>
+		<!-- Bootstrap -->
+		<link href="../css/bootstrap-4.3.1.css" rel="stylesheet">
+	</head>
+	<body>
+		<!-- The fixed navbar will overlay your other content, unless you add padding to the bottom of the <body>. Tip: By default, the navbar is 50px high.  --> 
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+		  <div class="container"> <a class="navbar-brand" href="../index.html">HtIW</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"> <a class="nav-link" href="../index.html">Home</a> </li>
-					<li class="nav-item"> <a class="nav-link" href="../About.html">About</a> </li>
-					<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Topics </a>
-				  		<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						  <a href="#" class="dropdown-item active">Domain names and ICANN <span class="sr-only">(current)</span></a>
-						  <a href="IPAddresses.html" class="dropdown-item">IP Addresses, Packets and Routing</a>
-						  <a href="DNS.html" class="dropdown-item">DNS</a>
-						  <a href="HTTP.html" class="dropdown-item">HTTP and HTTPS protocols</a>
-						  <a href="W3C.html" class="dropdown-item">W3C and HTML and CSS</a> 
-						</div>
-					</li>
-				</ul>
-    		</div>
-      	</div>
-	</nav>
-	<!-- END: Navbar -->
-	<div class="hero-image container-fluid">
-		<div class="container">
+			  <ul class="navbar-nav ml-auto">
+				<li class="nav-item"> <a class="nav-link" href="../index.html">Home</a> </li>
+				<li class="nav-item"> <a class="nav-link" href="../About.html">About</a> </li>
+				<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Topics </a>
+				  <div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a href="#" class="dropdown-item active">Domain names and ICANN <span class="sr-only">(current)</span></a> <a href="IPAddresses.html" class="dropdown-item">IP Addresses, Packets and Routing</a> <a href="DNS.html" class="dropdown-item">DNS</a> <a href="HTTP.html" class="dropdown-item">HTTP and HTTPS protocols</a> <a href="W3C.html" class="dropdown-item">W3C and HTML and CSS</a> </div>
+				</li>
+			  </ul>
+			</div>
+		  </div>
+		</nav>
+		<!-- END: Navbar -->
+		<div class="container-fluid">
+		  <div class="container">
+			  
+			<div class="row text-center justify-content-md-center" style="margin-bottom: 25px">
+				
+			  <h1>Domain names and ICANN</h1>
+			</div>
 			<div class="row text-center justify-content-md-center">
-				<h1>Domain names and ICANN</h1>
-				<p style="margin-top: 50px;"> </p>
-				<p style="margin-top: 50px;">NEED TO CHANGE:: The Internet Corporation for Assigned Names and Numbers (ICANN /ˈaɪkæn/ EYE-kan) is an American multistakeholder group and nonprofit organization responsible for coordinating the maintenance and procedures of several databases related to the namespaces and numerical spaces of the Internet, ensuring the network's stable and secure operation.</p>
+				<div class="col-lg-8">
+					<p>ICANN maintains and administers unique identifiers across the world so users can communicate with one another or with a server.</p>
+				  	<p>If ICANN did not work to maintain the DNS then we would not be able to globally scale our internet to the size that it is today.</p>
+				  	<p>ICANN also holds community-driven policy making meetings, so the internet can have a say from each sector of the web</p>
+				  	<p>ICANN promotes Competiton and choice to keep the DNS Ecosystem thriving.</p>
+				</div>
+				<div class="col-lg-4"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Icann_logo.svg/375px-Icann_logo.svg.png" class="img-fluid rounded bg-light" alt="Responsive image" style="padding:15px;"></div>
 			</div>
+			<div class="row text-center justify-content-md-center">
+			  <ul style="list-style: none">
+				<h4>What does ICANN do?</h4>
+				<p>They maintain the following systems:</p>
+				<li>The Domain Name System</li>
+				<li>Internet Protocol Address Allocation</li>
+				<li>The protocol parameter registry</li>
+				<li>Root Server Systems</li>
+				<li>Generic Top Level Domain Name System Managment</li>
+				<li>Country Code Top Level Domain Name DNS</li>
+				<li>Time Zone Database Management</li>
+				<br>
+				<p>ICANN works with the community to maintain security of users and stability of the interent.</p>
+				<p>ICANN allows new companys to flurish while maintaining interoperability.</p>
+				<p>ICANN makes sure that all users on the internet follow the policies developed by the community for the community</p>
+			  </ul>
+			</div>
+			<div class="row text-center justify-content-md-center">
+				<ul>
+					<h4>Who else is involved with ICANN?</h4>
+					<h5>The supporting organizations</h5>
+					<p>They work to manage addressing, country code name, and generic names</p>
+					<h5>The Advisory committees</h5>
+					<p>They work at large, on a governmental level, and they work at the root server system and maintain security and stability</p>
+					<h5>The Technical Advisory Bodies</h5>
+					<p>These comprise of the Technical Liason group and the Interenet Engineering Task Force</p>
+				</ul>
+			</div>
+		  </div>
 		</div>
-	</div>
-	
-	
 
-	<!-- Footer -->
-	<nav id="footer" class="row-fluid navbar-light bg-dark text-center align-items-end">
-		<div class="container" id="socialTags">
-			<div class="row justify-content-center" style="padding: 15px 0">
-				<a href="https://www.instagram.com/itanne99/"><img src="../images/instagram.svg" class="img-fluid" alt="Responsive image" width="25px"></a>
-				<a href="https://www.linkedin.com/in/ido-tanne-51a4b664/"><img src="../images/linkedin.svg" class="img-fluid" alt="Responsive image" width="25px"></a>
-				<a href="https://twitter.com/lukeido"><img src="../images/twitter.svg" class="img-fluid" alt="Responsive image" width="25px"></a>
-			</div>
+		<!-- Footer -->
+		<nav id="footer" class="row-fluid navbar-light bg-dark text-center align-items-end">
+		  <div class="container" id="socialTags">
+			<div class="row justify-content-center" style="padding: 15px 0"> <a href="https://www.instagram.com/itanne99/"><img src="../images/instagram.svg" class="img-fluid" alt="Responsive image" width="25px"></a> <a href="https://www.linkedin.com/in/ido-tanne-51a4b664/"><img src="../images/linkedin.svg" class="img-fluid" alt="Responsive image" width="25px"></a> <a href="https://twitter.com/lukeido"><img src="../images/twitter.svg" class="img-fluid" alt="Responsive image" width="25px"></a> </div>
 			<div class="row">
-				<h5 class="col">Ido Tanne @ IS 117 2020</h5>
+			  <h5 class="col">Ido Tanne @ IS 117 2020</h5>
 			</div>
-		</div>
-		
-	</nav>
-	<!-- END: Footer -->
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-	<script src="../js/jquery-3.3.1.min.js"></script> 
-	<!-- Include all compiled plugins (below), or include individual files as needed --> 
-	<script src="../js/popper.min.js"></script> 
-	<script src="../js/bootstrap-4.3.1.js"></script>
-</body>
+		  </div>
+		</nav>
+		<!-- END: Footer --> 
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+		<script src="../js/jquery-3.3.1.min.js"></script> 
+		<!-- Include all compiled plugins (below), or include individual files as needed --> 
+		<script src="../js/popper.min.js"></script> 
+		<script src="../js/bootstrap-4.3.1.js"></script>
+	</body>
 </html>
