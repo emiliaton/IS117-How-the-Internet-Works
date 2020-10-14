@@ -34,16 +34,24 @@
       	</div>
 	</nav>
 	<!-- END: Navbar -->
-	<div class="container-fluid">
+	<div class="hero-image container-fluid">
 		<div class="container">
 			<div class="row text-center justify-content-md-center">
-				<h1>DNS Page</h1>
-				<p style="margin-top: 50px;">DNS, Domain Name System is a much simpler way for people to remember websites or servers through the use of words instead of numbers. You can actually look it up at this link (<a href="https://mxtoolbox.com/DnsLookup.aspx">https://mxtoolbox.com/DnsLookup.aspx</a>) if we search google.com we get this IP address <strong>172.217.164.142</strong>, so even huge companies like google uses IPs. DNS domains are set up in a hierarchy system, so different servers handle the .com/.org/.net and distributes the workload among a different set of servers. DNS is an open system, so anyone can use it but because it has an open design it is is susceptible to cyber-attacks. This form of cyber-attack is called DNS Spoofing, it happens when a hacker enters a DNS server and takes over a domain so people will think the hacker’s “fake” website is the real one. </p>
+				<div class="col-xl-12">
+					<h1>DNS Page</h1>
+					<p style="margin-top: 50px;">DNS, Domain Name System is a much simpler way for people to remember websites or servers through the use of words instead of numbers. You can actually look it up at this link (<a href="https://mxtoolbox.com/DnsLookup.aspx">https://mxtoolbox.com/DnsLookup.aspx</a>) if we search google.com we get this IP address <strong>172.217.164.142</strong>, so even huge companies like google uses IPs. DNS domains are set up in a hierarchy system, so different servers handle the .com/.org/.net and distributes the workload among a different set of servers. DNS is an open system, so anyone can use it but because it has an open design it is is susceptible to cyber-attacks. This form of cyber-attack is called DNS Spoofing, it happens when a hacker enters a DNS server and takes over a domain so people will think the hacker’s “fake” website is the real one. </p>
+				</div>			
+			</div>
+			<div class="row text-center justify-content-md-center">
+				<div class="col-xl-12">
+					<h3>How a DNS request works</h3>
+					<img src="../images/dns-rev-1.gif" alt="" class="img-fluid">
+					<pre>Sourced from @HOWSTUFFWORKS.COM</pre>
+					<p>From a user's client, chrome is an example, when they input a domain name. The client first communicates with a DNS server and asks, "hey do you know how to get to www.examplesite.com?" The DNS may say, "Oh yea! The IP for that domain is 12.674.442.24" or it may say "Uhh... I'm not sure" then it will ask another DNS server the same thing and until a DNS server responds with "Oh yea I know the IP for that!" Then from there the DNS server will give you the IP and your computer will access the server through the IP provided.</p>
+				</div>
 			</div>
 		</div>
-	</div>
-	
-	
+	</div>	
 
 	<!-- Footer -->
 	<nav id="footer" class="row-fluid navbar-light bg-dark text-center align-items-end">
